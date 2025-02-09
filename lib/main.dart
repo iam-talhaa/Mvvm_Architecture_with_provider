@@ -16,6 +16,8 @@ class _Mvvm_Architecture_with_ProviderState
     extends State<Mvvm_Architecture_with_Provider> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      home: Scaffold(),
+    );
   }
 }
