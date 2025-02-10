@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class AppException implements Exception {
   final _messages;
   final _prefix;
