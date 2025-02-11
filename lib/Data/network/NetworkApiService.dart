@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -26,5 +27,12 @@ class Networkapiservice extends Baseapiservice {
     throw UnimplementedError();
   }
 
-  dynamic returnResponse(http.Response response) {}
+  dynamic returnResponse(http.Response response) {
+    switch (response.statusCode) {
+      case 200:
+      //dynamic response = jsonDecode(response);
+      // return responseJson;
+      default:
+    }
+  }
 }
