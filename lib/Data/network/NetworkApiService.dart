@@ -30,9 +30,17 @@ class Networkapiservice extends Baseapiservice {
   dynamic returnResponse(http.Response response) {
     switch (response.statusCode) {
       case 200:
-      //dynamic response = jsonDecode(response);
-      // return responseJson;
+      // dynamic response = jsonDecode(response);
+      // return responsejson;
       default:
     }
   }
+  // dynamic returnResponse(http.Response response) {
+  //   switch (response.statusCode) {
+  //     case 200:
+  //     //dynamic response = jsonDecode(response);
+  //     // return responseJson;
+  //     default:
+  //   }
+  // }
 }
